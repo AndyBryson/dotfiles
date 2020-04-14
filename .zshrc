@@ -9,7 +9,7 @@
 #fi
 
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/src/dotFiles/oh-my-zsh
+ZSH=$HOME/.config/oh-my-zsh
 
 #export ZSH_TMUX_AUTOSTART=true
 ZSH_DISABLE_COMPFIX="true"
@@ -118,4 +118,4 @@ alias bar-da1="ssh andy@192.168.64.96"
 alias server1="ssh ineos@server1"
 alias server2="ssh ineos@server2"
 
-alias config='/usr/bin/git --git-dir=$HOME/src/dotFilesNew/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/src/dotFiles --work-tree=$HOME'

@@ -53,6 +53,12 @@ bindsym $mod+Shift+space exec rofi -lines 12 -padding 18 -width 100 -location 0 
 ## Navigate // Window by Name // <Super><Ctrl> Space ##
 bindsym $mod+Ctrl+space exec rofi -lines 12 -padding 18 -width 100 -location 0 -show window -sidebar-mode -columns 1 -theme $rofiTheme
 
+## Navigate // Window by Name // <Super><Ctrl> Space ##
+#bindsym Mod1+tab exec --no-startup-id rofi -lines 12 -padding 18 -width 100 -location 0 -show window -sidebar-mode -columns 1 -theme $rofiTheme
+
+bindsym Mod1+Tab exec --no-startup-id rofi -show window -theme $rofiTheme -kb-cancel "Alt+Escape,Escape" -kb-accept-entry "!Alt-Tab,Return" -kb-row-down "Alt+Tab,Alt+Down" -kb-row-up "Alt+Shift+Tab,Alt+Up"
+
+
 ## Navigate // Relative Window // <Super> ↑ ↓ ← →
 #bindsym $mod+Left focus left
 #bindsym $mod+Down focus down

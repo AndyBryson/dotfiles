@@ -1,0 +1,9 @@
+name: guake
+
+windows:
+  - default:
+      layout: even-horizontal
+      panes:
+          -
+          - ipython
+

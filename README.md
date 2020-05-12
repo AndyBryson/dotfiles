@@ -11,3 +11,5 @@ Installation
 
 Also
 `sudo apt-get install zsh tmux tmuxinator`
+
+`chsh` to `/bin/zsh`

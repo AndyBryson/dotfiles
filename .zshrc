@@ -111,15 +111,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-alias rb1="ssh ineos@rb1"
-alias rb2="ssh ineos@rb2"
-alias chase4="ssh ineos@c4"
-alias wheelyda="ssh ineos@wheelyda"
-alias bar-da1="ssh andy@192.168.64.96"
-alias server1="ssh ineos@server1"
-alias server2="ssh ineos@server2"
-alias fakemedia="ssh -t ineos@rb2 ssh 10.0.50.1"
-
 alias config='/usr/bin/git --git-dir=$HOME/src/dotFiles --work-tree=$HOME'
 
 #LD_LIBRARY_PATH="/opt/anaconda3/lib/"

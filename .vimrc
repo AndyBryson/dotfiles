@@ -16,5 +16,6 @@ set number
 execute pathogen#infect()
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 
-let g:ctrlp_map = '<c-p>'
-let g:NERDTreeDirArrows=0
+" let g:ctrlp_map = '<c-p>'
+" let g:NERDTreeDirArrows=0
+

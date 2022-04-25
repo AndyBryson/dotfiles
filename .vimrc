@@ -16,6 +16,7 @@ set number
 execute pathogen#infect()
 call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 
+call yankstack#setup()
+
 " let g:ctrlp_map = '<c-p>'
 " let g:NERDTreeDirArrows=0
-
